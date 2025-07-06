@@ -3,7 +3,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
   xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="MailApp">
-  <Id>05c2e1c9-3e1d-406e-9a91-e9ac64854143</Id>
+  <Id>05c2e1c9-3e1d-496e-1a91-e9ac64854143</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>harmon.ie</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
@@ -13,9 +13,7 @@
   <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/assets/images/logo/NewHarmonieLogo-128.png"/>
   <SupportUrl DefaultValue="https://harmon.ie/support"/>
   <AppDomains>
-    <AppDomain>https://harmon.ie</AppDomain>
-    <AppDomain>https://notifications.harmon.ie</AppDomain>
-    <AppDomain>https://localhost:3000</AppDomain>
+    <AppDomain>https://raw.githubusercontent.com</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox" />
@@ -28,7 +26,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/"/>
+        <SourceLocation DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/index.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -122,7 +120,7 @@
       </bt:Images>
       <bt:Urls>
         <bt:Url id="Commands.Url" DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/commands.html" />
-        <bt:Url id="Taskpane.Url" DefaultValue="https://localhost:3000" />
+        <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/index.html" />
           <!-- Entry needed for classic Outlook on Windows. -->
           <bt:Url id="JSRuntime.Url" DefaultValue="https://raw.githubusercontent.com/yairov/sos/refs/heads/main/sos" />
     </bt:Urls>
